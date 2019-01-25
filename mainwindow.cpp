@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QDebug>
 #include <windows.h>
+#include <QMessageBox>
 
 int translate(QString type);
 
@@ -24,14 +25,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QString first = ui->comboBox_1->currentText();
-    QString second = ui->comboBox_2->currentText();
-    QString ch = ui->comboBox_3->currentText();
+    QString first = ui->comboBox_1_1->currentText();
+    QString second = ui->comboBox_1_2->currentText();
+    QString ch = ui->comboBox_1_3->currentText();
     RegisterHotKey((HWND)MainWindow::winId(),
                    100,
                    translate(first) | translate(second),
                    ch[0].toLatin1());
-    qDebug() << "register hotkey success!";
+    QMessageBox::information(this, "提示", "设置成功!");
 }
 
 int translate(QString type) {
@@ -56,20 +57,10 @@ bool MainWindow::nativeEvent(const QByteArray &eventType, void *message, long *r
 
     // If the message is a HotKey, then ...
     if(msg->message == WM_HOTKEY){
-        // ... check HotKey
         if(msg->wParam == 100){
-//            QProcess::execute("cmd.exe exit");
-            process = new QProcess(this);
-//            process->setProgram("cmd.exe");
-            process->startDetached("cmd.exe");
-//            process->waitForStarted();
+            QProcess::startDetached("cmd.exe", QStringList(), "C:\\");
             qDebug() << "started";
-//            MessageBox((HWND)MainWindow::winId(), TEXT("abc"), TEXT("123"), MB_OK);
             return true;
-        } else if(msg->wParam == 101) {
-            QProcess process;
-            process.startDetached("cmd.exe");
-            qDebug() << "cmd started!";
         }
     }
     return false;

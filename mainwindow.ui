@@ -6,224 +6,1033 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>538</width>
-    <height>415</height>
+    <width>846</width>
+    <height>232</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QComboBox" name="comboBox_1">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>70</y>
-      <width>87</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string comment="1">Ctrl</string>
-     </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QComboBox" name="comboBox_1_1">
+      <item>
+       <property name="text">
+        <string comment="1">Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Shift</string>
-     </property>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_1_2">
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Alt</string>
-     </property>
+    <item row="0" column="2">
+     <widget class="QComboBox" name="comboBox_1_3">
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Q</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>U</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>W</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Z</string>
+       </property>
+      </item>
+     </widget>
     </item>
-   </widget>
-   <widget class="QComboBox" name="comboBox_2">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>70</y>
-      <width>87</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Alt</string>
-     </property>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>EXE:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Ctrl</string>
-     </property>
+    <item row="0" column="4">
+     <widget class="QLineEdit" name="lineEdit_1_1"/>
     </item>
-    <item>
-     <property name="text">
-      <string>Shift</string>
-     </property>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>ARGS:</string>
+      </property>
+     </widget>
     </item>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>70</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_3">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>70</y>
-      <width>87</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>A</string>
-     </property>
+    <item row="0" column="6">
+     <widget class="QLineEdit" name="lineEdit_1_2"/>
     </item>
-    <item>
-     <property name="text">
-      <string>B</string>
-     </property>
+    <item row="1" column="0">
+     <widget class="QComboBox" name="comboBox_2_1">
+      <item>
+       <property name="text">
+        <string comment="1">Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>C</string>
-     </property>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="comboBox_2_2">
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>D</string>
-     </property>
+    <item row="1" column="2">
+     <widget class="QComboBox" name="comboBox_2_3">
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Q</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>U</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>W</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Z</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>E</string>
-     </property>
+    <item row="1" column="3">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>EXE:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>F</string>
-     </property>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="lineEdit_2_1"/>
     </item>
-    <item>
-     <property name="text">
-      <string>G</string>
-     </property>
+    <item row="1" column="5">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>ARGS:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>H</string>
-     </property>
+    <item row="1" column="6">
+     <widget class="QLineEdit" name="lineEdit_2_2"/>
     </item>
-    <item>
-     <property name="text">
-      <string>I</string>
-     </property>
+    <item row="2" column="0">
+     <widget class="QComboBox" name="comboBox_3_1">
+      <item>
+       <property name="text">
+        <string comment="1">Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>J</string>
-     </property>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_3_2">
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>K</string>
-     </property>
+    <item row="2" column="2">
+     <widget class="QComboBox" name="comboBox_3_3">
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Q</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>U</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>W</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Z</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>L</string>
-     </property>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>EXE:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>M</string>
-     </property>
+    <item row="2" column="4">
+     <widget class="QLineEdit" name="lineEdit_3_1"/>
     </item>
-    <item>
-     <property name="text">
-      <string>N</string>
-     </property>
+    <item row="2" column="5">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>ARGS:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>O</string>
-     </property>
+    <item row="2" column="6">
+     <widget class="QLineEdit" name="lineEdit_3_2"/>
     </item>
-    <item>
-     <property name="text">
-      <string>P</string>
-     </property>
+    <item row="3" column="0">
+     <widget class="QComboBox" name="comboBox_4_1">
+      <item>
+       <property name="text">
+        <string comment="1">Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Q</string>
-     </property>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="comboBox_4_2">
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>R</string>
-     </property>
+    <item row="3" column="2">
+     <widget class="QComboBox" name="comboBox_4_3">
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Q</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>U</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>W</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Z</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>S</string>
-     </property>
+    <item row="3" column="3">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>EXE:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>T</string>
-     </property>
+    <item row="3" column="4">
+     <widget class="QLineEdit" name="lineEdit_4_1"/>
     </item>
-    <item>
-     <property name="text">
-      <string>U</string>
-     </property>
+    <item row="3" column="5">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>ARGS:</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>V</string>
-     </property>
+    <item row="3" column="6">
+     <widget class="QLineEdit" name="lineEdit_3_3"/>
     </item>
-    <item>
-     <property name="text">
-      <string>W</string>
-     </property>
+    <item row="4" column="0">
+     <widget class="QComboBox" name="comboBox_5_1">
+      <item>
+       <property name="text">
+        <string comment="1">Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>X</string>
-     </property>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="comboBox_5_2">
+      <item>
+       <property name="text">
+        <string>Alt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ctrl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shift</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Y</string>
-     </property>
+    <item row="4" column="2">
+     <widget class="QComboBox" name="comboBox_5_3">
+      <item>
+       <property name="text">
+        <string>A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Q</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>U</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>W</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Y</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Z</string>
+       </property>
+      </item>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Z</string>
-     </property>
+    <item row="4" column="3">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>EXE:</string>
+      </property>
+     </widget>
     </item>
-   </widget>
+    <item row="4" column="4">
+     <widget class="QLineEdit" name="lineEdit_5_1"/>
+    </item>
+    <item row="4" column="5">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>ARGS:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QLineEdit" name="lineEdit_5_2"/>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>538</width>
+     <width>846</width>
      <height>23</height>
     </rect>
    </property>
